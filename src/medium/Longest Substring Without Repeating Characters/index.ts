@@ -27,7 +27,8 @@ function lengthOfLongestSubstring(s: string): number {
   return count;
 };
 
-//BETTER SOLUTION
+/* Better solution (not mine) */
+
 /* function lengthOfLongestSubstring(s: string): number {
   let left = 0;
   let maxLength = 0;
