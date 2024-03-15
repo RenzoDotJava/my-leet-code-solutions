@@ -12,6 +12,6 @@ while (head) {
   head = head.next!
 } */
 
-import numSubarraysWithSum from "./medium/Binary Subarrays With Sum";
+import productExceptSelf from "./medium/Product of Array Except Self"
 
-console.log(numSubarraysWithSum([1, 1, 1, 1, 0, 0, 1], 3))
+console.log(productExceptSelf([1,2,3,4]))
