@@ -12,6 +12,8 @@ while (head) {
   head = head.next!
 } */
 
-import productExceptSelf from "./medium/Product of Array Except Self"
+import findMinArrowShots from "./medium/Minimum Number of Arrows to Burst Balloons"
 
-console.log(productExceptSelf([1,2,3,4]))
+let arr = [[9, 12], [1, 10], [4, 11], [8, 12], [3, 9], [6, 9], [6, 7]]
+
+console.log(findMinArrowShots(arr))
