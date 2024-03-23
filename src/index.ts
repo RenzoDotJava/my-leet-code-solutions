@@ -1,19 +1,12 @@
-/* import removeNthFromEnd, { ListNode } from "./medium/Remove Nth Node From End of List" */
+import mergeTwoLists, { ListNode } from "./easy/Merge Two Sorted Lists";
 
-/* let listNode = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))) */
-/* let listNode = new ListNode(1, new ListNode(2)) */
-/* let listNode = new ListNode(1) */
-/* let listNode = new ListNode(1, new ListNode(2, new ListNode(3))) */
+const list1 = new ListNode(1, new ListNode(2, new ListNode(4)))
+const list2 = new ListNode(1, new ListNode(3, new ListNode(4)))
 
-/* let head = removeNthFromEnd(listNode, 3)
-console.log('-------')
-while (head) {
-  console.log(head.val)
-  head = head.next!
-} */
+let newList = mergeTwoLists(list1, list2)
 
-import findMinArrowShots from "./medium/Minimum Number of Arrows to Burst Balloons"
-
-let arr = [[9, 12], [1, 10], [4, 11], [8, 12], [3, 9], [6, 9], [6, 7]]
-
-console.log(findMinArrowShots(arr))
+//print values of newList
+while (newList) {
+  console.log(newList.val)
+  newList = newList.next
+}
