@@ -1,6 +1,3 @@
-import removeElement from "./easy/Remove Element";
+import strStr from "./easy/Find the Index of the First Occurrence in a String";
 
-let nums = [0, 1, 2, 2, 3, 0, 4, 2];
-let res = removeElement(nums, 2)
-console.log(res)
-console.log(nums)
+console.log(strStr("a", "a"))
