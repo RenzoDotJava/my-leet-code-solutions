@@ -1,12 +1,6 @@
-import mergeTwoLists, { ListNode } from "./easy/Merge Two Sorted Lists";
+import removeElement from "./easy/Remove Element";
 
-const list1 = new ListNode(1, new ListNode(2, new ListNode(4)))
-const list2 = new ListNode(1, new ListNode(3, new ListNode(4)))
-
-let newList = mergeTwoLists(list1, list2)
-
-//print values of newList
-while (newList) {
-  console.log(newList.val)
-  newList = newList.next
-}
+let nums = [0, 1, 2, 2, 3, 0, 4, 2];
+let res = removeElement(nums, 2)
+console.log(res)
+console.log(nums)
