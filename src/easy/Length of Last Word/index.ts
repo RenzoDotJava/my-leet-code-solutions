@@ -17,4 +17,5 @@ function lengthOfLastWord(s: string): number {
   return words[words.length - 1].length;
 };
  */
+
 export default lengthOfLastWord;
