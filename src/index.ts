@@ -1,3 +1,3 @@
-import islandPerimeter from "./easy/Island Perimeter";
+import addBinary from "./easy/Add Binary";
 
-console.log(islandPerimeter([[1,0]]));
+console.log(addBinary("101111", "10"));
