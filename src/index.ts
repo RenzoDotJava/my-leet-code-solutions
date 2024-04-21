@@ -1,3 +1,3 @@
-import addBinary from "./easy/Add Binary";
+import climbStairs from "./easy/Climbing Stairs";
 
-console.log(addBinary("101111", "10"));
+console.log(climbStairs(3));
