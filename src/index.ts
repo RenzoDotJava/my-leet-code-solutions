@@ -1,5 +1,10 @@
-import deleteDuplicates, { ListNode } from "./easy/Remove Duplicates from Sorted List";
+import merge from "./easy/Merge Sorted Array";
 
-const node1 = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))));
+let nums1 = [4, 5, 6, 0, 0, 0]
+let m = 3;
+let nums2: number[] = [1, 2, 3];
+let n = 3;
 
-console.log(deleteDuplicates(node1));
+merge(nums1, m, nums2, n)
+
+console.log(nums1)
